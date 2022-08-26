@@ -18,10 +18,10 @@ void func1(){
 		i++;
 		if(i > 10)
 			break;
-		if(i % 5 == 0){
+		if(i % 5 == 0)
 			continue;
 		sum+=i;			
-		}
+		
 
 	}
 	printf("sum = %d\n", sum);
